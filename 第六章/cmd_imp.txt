@@ -1,0 +1,341 @@
+Microsoft (R) COFF/PE Dumper Version 14.20.27508.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file cmd.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following imports:
+
+    msvcrt.dll
+              4AD01000 Import Address Table
+              4AD2286C Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      6FF636AA    48F exit
+      6FFAF719    1B5 _getch
+      6FF5C02C    4CD iswdigit
+      6FF5FF45    568 wcstol
+      6FF5BBCE    3CE _vsnwprintf
+      6FF5A9E9    3EF _wcsicmp
+      6FF5E1E1    127 _controlfp
+      6FFA61CF     37 ?terminate@@YAXXZ
+      6FF73E27    159 _except_handler4_common
+      6FF62804     D2 __set_app_type
+      6FF627CE     BE __p__fmode
+      6FF627C3     B9 __p__commode
+      6FFE77AD     D4 __setusermatherr
+      6FFBB2EF    101 _amsg_exit
+      6FF5C151    1D5 _initterm
+      6FF7DC75     6A _XcptFilter
+      6FFBB2C0    162 _exit
+      6FF637D4    114 _cexit
+      6FF62BC0     91 __getmainargs
+      6FF5C456    485 calloc
+      6FF59894    4A6 free
+      6FF5FB25    3F3 _wcslwr
+      6FF5D3E6    4FA qsort
+      6FF62EF3    14F _dup2
+      6FF630C9    14E _dup
+      6FF629D2    2ED _open_osfhandle
+      6FF63AE2    123 _close
+      6FF6BB89    52F swscanf
+      6FFA1822    39C _ultoa
+      6FF6C694    2F6 _pipe
+      6FF6CC73    32C _setmode
+      6FF5B05E    55B wcsncmp
+      6FF61029    4D4 iswxdigit
+      6FF5C7C8    46D _wtol
+      6FF5F708    534 time
+      6FF5F757    50E srand
+      6FF64142    495 fflush
+      6FF5F2B1    1AA _get_osfhandle
+      6FF5EDEF    329 _setjmp3
+      6FF5BF71    564 wcsstr
+      6FF73F64    23D _local_unwind4
+      6FF5A5B8    156 _errno
+      6FF5B319    56B wcstoul
+      6FF5C136    4C9 iswalpha
+      6FF5C070    4FD rand
+      6FF5A73F    560 wcsrchr
+      6FF59910    4EA memcpy
+      6FF6C5B9    4F3 printf
+      6FFF2900    1DB _iob
+      6FF63E00    49F fprintf
+      6FF5AD52    53B towlower
+      6FF5B10D    4FF realloc
+      6FF65286    506 setlocale
+      6FF5DAC1    40A _wcsupr
+      6FF772CF    43F _wpopen
+      6FF64947    494 ferror
+      6FF74589    498 fgets
+      6FF6C9EA    493 feof
+      6FF77055    2F3 _pclose
+      6FF59E5A    4EC memmove
+      6FF5AA61    551 wcschr
+      6FF64B3A    389 _tell
+      6FF5AACB    4D2 iswspace
+      6FF59790    4EE memset
+      6FF60014    563 wcsspn
+      6FF5F670    53C towupper
+      6FF64B72    4DD longjmp
+      6FF5AAE3    3F9 _wcsnicmp
+
+    ntdll.dll
+              4AD01114 Import Address Table
+              4AD22980 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77F13C65    414 RtlNtStatusToDosError
+      77F06678    1F1 NtSetInformationProcess
+      77F06048    18E NtQueryInformationProcess
+      77ECDA47    336 RtlFindLeastSignificantBit
+      77F12C6A    348 RtlFreeHeap
+      77F05A08    129 NtFsControlFile
+      77F227E0    2F7 RtlDosPathNameToNtPathName_U
+      77F06078    191 NtQueryInformationToken
+      77F054C8     D4 NtClose
+      77F05D98    163 NtOpenProcessToken
+      77F05E18    16B NtOpenThreadToken
+
+    KERNEL32.dll
+              4AD01144 Import Address Table
+              4AD229B0 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77E2AFAB    1C7 GetDateFormatW
+      77E3ED38    4CF UnhandledExceptionFilter
+      77E2CDCF    1BF GetCurrentProcess
+      77E32FDE    277 GetSystemTimeAsFileTime
+      77E2CAC4    1C0 GetCurrentProcessId
+      77E2BA60    291 GetTickCount
+      77E2BB9F    3A3 QueryPerformanceCounter
+      77E2CF41    212 GetModuleHandleA
+      77E33D01    4A0 SetUnhandledExceptionFilter
+      77E2BA46    4AE Sleep
+      77E2BF0A    2EB InterlockedExchange
+      77E247FA    33C LoadLibraryExA
+      77E2BB92    2E8 InterlockedCompareExchange
+      77E2D9D0    161 FreeLibrary
+      77E0028C     CD DelayLoadFailureHook
+      77E76E73     93 CreateHardLinkW
+      77E69AA9     B2 CreateSymbolicLinkW
+      77E319B7    2A9 GetVolumePathNameW
+      77E2153C    28A GetThreadLocale
+      77E70226    286 GetThreadGroupAffinity
+      77E6DE02    229 GetNumaNodeProcessorMaskEx
+      77E6E962    479 SetProcessAffinityMask
+      77E20F1C    40F ResumeThread
+      77E3764B    133 FindFirstFileExW
+      77E2A629     DC DeviceIoControl
+      77E3C8FA    13A FindFirstStreamW
+      77E3C838    145 FindNextStreamW
+      77E1DE40    1CD GetDiskFreeSpaceExW
+      77E313F3     60 CompareFileTime
+      77E1586A    3FF RemoveDirectoryW
+      77E3C13A    1BE GetCurrentDirectoryW
+      77E37663    449 SetCurrentDirectoryW
+      77E22331    4BC TerminateProcess
+      77E2BA90    4F5 WaitForSingleObject
+      77E31462    1DE GetExitCodeProcess
+      77E167C3     75 CopyFileW
+      77E1AD1B    45C SetFileAttributesW
+      77E22319    44F SetEndOfFile
+      77E20F62     D5 DeleteFileW
+      77E1BE16    465 SetFileTime
+      77E23925     81 CreateDirectoryW
+      77E40D75    125 FillConsoleOutputAttribute
+      77E40D0A    442 SetConsoleTextAttribute
+      77E11F36    417 ScrollConsoleScreenBufferW
+      77E254A3    15D FormatMessageW
+      77E339AA    167 GetACP
+      77E2CDD9     E7 DuplicateHandle
+      77E17F81    156 FlushFileBuffers
+      77F2FF51    2D1 HeapReAlloc
+      77F19BEC    2D3 HeapSize
+      77E32FB6    4E5 VirtualAlloc
+      77E31DA4    4E8 VirtualFree
+      77E2BB80    1C4 GetCurrentThreadId
+      77E36733    382 OpenThread
+      77E34157    2D2 HeapSetInformation
+      77E2273D    1E4 GetFileAttributesExW
+      77E33BE6    1D2 GetDriveTypeW
+      77F1A149    2E2 InitializeCriticalSection
+      77E365D4    429 SetConsoleCtrlHandler
+      77E204B6    2AD GetWindowsDirectoryW
+      77E2154E    2A0 GetVersion
+      77E33C26    211 GetModuleFileNameW
+      77E24680    11C ExpandEnvironmentStringsW
+      77E68B99     44 CancelSynchronousIo
+      77F077A0     ED EnterCriticalSection
+      77F07760    338 LeaveCriticalSection
+      77E37598    2A5 GetVolumeInformationW
+      77E23DAC    419 SearchPathW
+      77E31400    521 WriteFile
+      77E1F5B2    462 SetFilePointerEx
+      77E29CE1    2B2 GlobalAlloc
+      77E29CF9    2B9 GlobalFree
+      77E4548A    361 MoveFileW
+      77E20187    444 SetConsoleTitleW
+      77E2CA64    347 LocalFree
+      77E24A91    35E MoveFileExW
+      77E3C27D    1B5 GetConsoleTitleW
+      77E364FF    1E7 GetFileAttributesW
+      77E3C3F5    367 NeedCurrentDirectoryForExePathW
+      77E44EF3    170 GetBinaryTypeW
+      77E2DB36    461 SetFilePointer
+      77E367B0    53E lstrcmpW
+      77E2A8EB    541 lstrcmpiW
+      77E2BBD0    2CE HeapFree
+      77E31280    247 GetProcessHeap
+      77E488E6    493 SetThreadLocale
+      77E333D3    242 GetProcAddress
+      77E3374D    215 GetModuleHandleW
+      77E376D6    4ED VirtualQuery
+      77F12DD6    2CA HeapAlloc
+      77E2CA7C     52 CloseHandle
+      77E3452B    365 MultiByteToWideChar
+      77E296FB    3BC ReadFile
+      77E282F1    520 WriteConsoleW
+      77E8D3FD    127 FillConsoleOutputCharacterW
+      77E11EE0    42D SetConsoleCursorPosition
+      77E40E73    3BA ReadConsoleW
+      77E29652    1B1 GetConsoleScreenBufferInfo
+      77E31E46    262 GetStdHandle
+      77E375A5    1F0 GetFileType
+      77E2BF00    1FF GetLastError
+      77E3450E    50D WideCharToMultiByte
+      77E20273    1ED GetFileSize
+      77E8DEB5    155 FlushConsoleInputBuffer
+      77E31E2E    171 GetCPInfo
+      77E31369    1AF GetConsoleOutputCP
+      77E283FA     5C CmdBatNotification
+      77E2CC56     8F CreateFileW
+      77E30E62    12D FindClose
+      77E2963A    144 FindNextFileW
+      77E353B2    138 FindFirstFileW
+      77E34543    1F8 GetFullPathNameW
+      77E36584    299 GetUserDefaultLCID
+      77E6F579    471 SetLocalTime
+      77E2CECB    4B9 SystemTimeToFileTime
+      77E2CED8    275 GetSystemTime
+      77E31DFE    124 FileTimeToSystemTime
+      77E36596    203 GetLocaleInfoW
+      77E32004    123 FileTimeToLocalFileTime
+      77E2AC29    295 GetTimeFormatW
+      77E2A90E    200 GetLocalTime
+      77E31DC3    160 FreeEnvironmentStringsW
+      77E31DBC    1D9 GetEnvironmentStringsW
+      77E2D9F5    453 SetEnvironmentVariableW
+      77E203E7    451 SetEnvironmentStringsW
+      77E3246C    439 SetConsoleMode
+      77E32412    1AB GetConsoleMode
+      77E6DCFA    226 GetNumaHighestNodeNumber
+      77E3679E    186 GetCommandLineW
+      77E365C4    1DB GetEnvironmentVariableW
+      77E34A51    454 SetErrorMode
+      77E73905    29F GetVDMCurrentDirectories
+      77E2CB4F    3C1 RegCloseKey
+      77E2BB08    46E SetLastError
+      77E33218    3E1 RegQueryValueExW
+      77E2C189    3DC RegOpenKeyExW
+      77E1B57F    3C9 RegDeleteValueW
+      77E16644    3C5 RegDeleteKeyExW
+      77E1C1CE    3BF ReadProcessMemory
+      77E33C01    33E LoadLibraryW
+      77E25C28    39E QueryFullProcessImageNameW
+      77E42787    1B6 GetConsoleWindow
+      77DE204D     A7 CreateProcessW
+      77E33891    261 GetStartupInfoW
+      074010AD     D6 DeleteProcThreadAttributeList
+      074010D3    4D9 UpdateProcThreadAttribute
+      074010B5    2E5 InitializeProcThreadAttributeList
+      77E294B0    3E8 RegSetValueExW
+      77E20D25    3C3 RegCreateKeyExW
+
+    WINBRAND.dll
+              4AD0139C Import Address Table
+              4AD22C08 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      3FDB1D51      0 BrandingFormatString
+
+  Header contains the following bound import information:
+    Bound to msvcrt.dll [4CE7B8E0] Sat Nov 20 20:02:40 2010
+    Bound to ntdll.dll [4CE7B96E] Sat Nov 20 20:05:02 2010
+    Bound to KERNEL32.dll [4CE7B8EF] Sat Nov 20 20:02:55 2010
+      Contained forwarders bound to ntdll.dll [4CE7B96E] Sat Nov 20 20:05:02 2010
+      Contained forwarders bound to api-ms-win-core-processthreads-l1-1-0.DLL [4CE7B731] Sat Nov 20 19:55:29 2010
+    Bound to WINBRAND.dll [4CE7BA39] Sat Nov 20 20:08:25 2010
+
+  Section contains the following delay load imports:
+
+    ADVAPI32.dll
+              00000001 Characteristics
+              4AD24278 Address of HMODULE
+              4AD24000 Import Address Table
+              4AD225F8 Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4AD2242C               0 RevertToSelf
+          4AD22436               0 SaferRecordEventLogEntry
+          4AD22440               0 ImpersonateLoggedOnUser
+          4AD0BEC3               0 SaferCloseLevel
+          4AD0BECA               0 SaferComputeTokenFromLevel
+          4AD0BEBC               0 SaferIdentifyLevel
+          4AD2244A               0 RegEnumKeyW
+          4AD22454               0 RegSetValueW
+          4AD2245E               0 CreateProcessAsUserW
+          4AD22468               0 LookupAccountSidW
+          4AD22472               0 GetSecurityDescriptorOwner
+          4AD2247C               0 GetFileSecurityW
+
+    USER32.dll
+              00000001 Characteristics
+              4AD2427C Address of HMODULE
+              4AD24034 Import Address Table
+              4AD2262C Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4AD22486               0 MessageBeep
+
+    SHELL32.dll
+              00000001 Characteristics
+              4AD24280 Address of HMODULE
+              4AD2403C Import Address Table
+              4AD22634 Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4AD0FC47               0 ShellExecuteExW
+          4AD2249E               0 SHChangeNotify
+
+    MPR.dll
+              00000001 Characteristics
+              4AD24284 Address of HMODULE
+              4AD24048 Import Address Table
+              4AD22640 Import Name Table
+              00000000 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4AD224CB               0 WNetCancelConnection2W
+          4AD224A8               0 WNetGetConnectionW
+          4AD224DD               0 WNetAddConnection2W
+
+  Summary
+
+       1D000 .data
+        2000 .reloc
+        9000 .rsrc
+       23000 .text
