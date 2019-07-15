@@ -1,0 +1,373 @@
+Microsoft (R) COFF/PE Dumper Version 14.20.27508.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file notepad.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following imports:
+
+    ADVAPI32.dll
+               1001000 Import Address Table
+               100A234 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77C71C82    27E RegSetValueExW
+      77C7BCD5    26E RegQueryValueExW
+      77C7BED4    230 RegCloseKey
+      77C71CC0    23C RegCreateKeyW
+      77C7BEC4    261 RegOpenKeyExW
+      77C7BEE4    180 IsTextUnicode
+      77C79A61     57 CloseServiceHandle
+      77C6D225    224 QueryServiceConfigW
+      77C6D20D    1FB OpenServiceW
+      77C6D1F5    1F9 OpenSCManagerW
+
+    KERNEL32.dll
+               100102C Import Address Table
+               100A260 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77E129F9    140 FindNLSString
+      77E2D35C    2B3 GlobalAlloc
+      77E2D1BD    2C5 GlobalUnlock
+      77E2D275    2BE GlobalLock
+      77E2E1A1    297 GetTimeFormatW
+      77E2E49F    1C8 GetDateFormatW
+      77E2DB98    203 GetLocalTime
+      77E23CED    29E GetUserDefaultUILanguage
+      77E2F198    2CF HeapFree
+      77F1209D    2CB HeapAlloc
+      77E2F24C    24A GetProcessHeap
+      77E30CFE    1EC GetFileInformationByHandle
+      77E2F25E    2EC InterlockedExchange
+      77E23474    163 FreeLibraryAndExitThread
+      77E313CE    1EA GetFileAttributesW
+      77E6F671    517 Wow64RevertWow64FsRedirection
+      77E1E0ED    513 Wow64DisableWow64FsRedirection
+      77E28B45    30E IsWow64Process
+      77E3060C    1C0 GetCurrentProcess
+      77E327FD     B5 CreateThread
+      77E328B2    33F LoadLibraryW
+      77E329F4    214 GetModuleFileNameW
+      77E23A51     8C CreateFileMappingW
+      77E2B65C    15E FormatMessageW
+      77E2C0D4    357 MapViewOfFile
+      77E30E69    367 MultiByteToWideChar
+      77E3125E    4D6 UnmapViewOfFile
+      77E2A790    34B LocalReAlloc
+      77E329A4    168 GetACP
+      77E2656B     D6 DeleteFileW
+      77E24502    453 SetEndOfFile
+      77E30F86    511 WideCharToMultiByte
+      77E2F17D    473 SetLastError
+      77E311CC    525 WriteFile
+      77E2F176    202 GetLastError
+      77E23609    34D LocalSize
+      77E319D1    1FB GetFullPathNameW
+      77E2ECC0    366 MulDiv
+      77E3ECAB    187 GetCommandLineW
+      77E30D23    1C1 GetCurrentProcessId
+      77E4801D    15C FoldStringW
+      77E31814    542 lstrcmpW
+      77E3105A    139 FindFirstFileW
+      77E3351A    12E FindClose
+      77E3C41A    2D3 HeapSetInformation
+      77E2509B    4C0 TerminateProcess
+      77E2FE44    279 GetSystemTimeAsFileTime
+      77E2F212    1C5 GetCurrentThreadId
+      77E2EF76    293 GetTickCount
+      77E2F2A7    3A7 QueryPerformanceCounter
+      77E328D7    215 GetModuleHandleA
+      77E33142    4A5 SetUnhandledExceptionFilter
+      77DE1DF0    262 GetStartupInfoA
+      77E2F23C    2E9 InterlockedCompareExchange
+      77E2EF66    4B2 Sleep
+      77E2928D    34A LocalLock
+      77E292A5    34E LocalUnlock
+      77E2FE37    54E lstrlenW
+      77E3354A    206 GetLocaleInfoW
+      77E2D374    2BA GlobalFree
+      77E2DB75    545 lstrcmpiW
+      77E31297    458 SetErrorMode
+      77E30B5D     8F CreateFileW
+      77E2DAA9    3C0 ReadFile
+      77E305B7     52 CloseHandle
+      77E30594    344 LocalAlloc
+      77E2F15B    2EB InterlockedDecrement
+      77E3057C    348 LocalFree
+      77E2F188    2EF InterlockedIncrement
+      77E2CA61    2A4 GetVersionExW
+      77E42B35    4D3 UnhandledExceptionFilter
+
+    GDI32.dll
+               100114C Import Address Table
+               100A380 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77B6A3FD     40 CreateFontIndirectW
+      77B6F177    294 SetMapMode
+      77B73AA8    2A8 SetViewportExtEx
+      77B70984    2AC SetWindowExtEx
+      77B682A5    234 LPtoDP
+      77B666CD    27F SetBkMode
+      77B6798F    226 GetTextMetricsW
+      77B80778    279 SetAbortProc
+      77B95BB6    2B0 StartDocW
+      77B95269    2B2 StartPage
+      77B807CD     F2 EndPage
+      77B94D37      0 AbortDoc
+      77B9517E     EF EndDoc
+      77B66A2C     E3 DeleteDC
+      77B814B9    2B9 TextOutW
+      77B6B535    21E GetTextExtentPoint32W
+      77B6BD21     32 CreateDCW
+      77B661D0    277 SelectObject
+      77B6B4CC    224 GetTextFaceW
+      77B6FE8A    128 EnumFontsW
+      77B66E03    1CB GetDeviceCaps
+      77B668B4     E6 DeleteObject
+
+    USER32.dll
+               10011A8 Import Address Table
+               100A3DC Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77D253F9    27F SetActiveWindow
+      77D261DD    13E GetKeyboardLayout
+      77D1D6D7    237 PostQuitMessage
+      77D2724B     9C DefWindowProcW
+      77D2565D    12D GetForegroundWindow
+      77D266E3    1D1 IsIconic
+      77D1D5EF     A6 DestroyWindow
+      77D444F7    20D MessageBeep
+      77D46BD0    19B GetWindowPlacement
+      77D30C72     3C CharUpperW
+      77D2212B    24D RegisterClassExW
+      77D22323    1EF LoadImageW
+      77D1F283    1EB LoadCursorW
+      77D26614    2C4 SetWindowLongW
+      77D1AC45    1E5 LoadAcceleratorsW
+      77D21702    17D GetSystemMenu
+      77D18169    2C5 SetWindowPlacement
+      77D20E51     6E CreateWindowExW
+      77D1EDFD    263 RegisterWindowMessageW
+      77D22BD9    311 UpdateWindow
+      77D27BC9    1BE InvalidateRect
+      77D41BD0    2B1 SetScrollPos
+      77D1C3CD    1A2 GetWindowTextLengthW
+      77D283A9    196 GetWindowLongW
+      77D291B5    233 PeekMessageW
+      77D1A72E     D8 EnableWindow
+      77D4564A     AC DialogBoxParamW
+      77D19BFF     63 CreateDialogParamW
+      77D1D9F6    1A3 GetWindowTextW
+      77D23581    2C6 SetWindowPos
+      77D252EA    288 SetCursor
+      77D1D3AE    293 SetForegroundWindow
+      77D1CF04     FA FindWindowW
+      77D28409    17E GetSystemMetrics
+      77D1A8C4    21B MoveWindow
+      77D2764C    27C SendMessageW
+      77D1F9CA     31 CharNextW
+      77D1612E     3F CheckMenuItem
+      77D45BA7     49 CloseClipboard
+      77D45C3A    1CA IsClipboardFormatAvailable
+      77D45BB9    226 OpenClipboard
+      77D4698E    156 GetMenuState
+      77D189EF     D6 EnableMenuItem
+      77D1B71C    17A GetSubMenu
+      77D274B1    114 GetClientRect
+      77D1D924    2FE UnhookWinEvent
+      77D25A1B    12C GetFocus
+      77D1CDCE    14B GetMenu
+      77D6EABF    215 MessageBoxW
+      77D3672B    329 WinHelpW
+      77D1D9BD    126 GetDlgCtrlID
+      77D5B6D2     43 ChildWindowFromPoint
+      77D27041    121 GetDC
+      77D2147A    2DF ShowWindow
+      77D27BDD     CF DrawTextExW
+      77D27055    265 ReleaseDC
+      77D21431    1ED LoadIconW
+      77D2507E    2BF SetWinEventHook
+      77D28F97    15D GetMessageW
+      77D26225    236 PostMessageW
+      77D26F06    1CD IsDialogMessageW
+      77D29442    2FA TranslateAcceleratorW
+      77D4555C     DA EndDialog
+      77D40A97    12A GetDlgItemTextW
+      77D44D45    290 SetDlgItemTextW
+      77D1CBA9    292 SetFocus
+      77D28267    2CB SetWindowTextW
+      77D27AB3    164 GetParent
+      77D25533    1FA LoadStringW
+      77D44CFE    273 SendDlgItemMessageW
+      77D1C198    120 GetCursorPos
+      77D1C1F2    26D ScreenToClient
+      77D2910F    2FC TranslateMessage
+      77D23D0F    104 GetAncestor
+      77D28E8D     AF DispatchMessageW
+
+    msvcrt.dll
+               10012D8 Import Address Table
+               100A50C Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      6FF5E1E1    127 _controlfp
+      6FF5BBCE    3CE _vsnwprintf
+      6FF59790    4EE memset
+      6FF5C7C8    46D _wtol
+      6FF59910    4EA memcpy
+      6FF5AA8C    4CC iswctype
+      6FF5B05E    55B wcsncmp
+      6FF5A73F    560 wcsrchr
+      6FF73E27    159 _except_handler4_common
+      6FF627CE     BE __p__fmode
+      6FF627C3     B9 __p__commode
+      6FFE77AD     D4 __setusermatherr
+      6FFBB2EF    101 _amsg_exit
+      6FF5C151    1D5 _initterm
+      6FFF04D8     E7 _acmdln
+      6FF636AA    48F exit
+      6FF5F607    1F4 _ismbblead
+      6FF7DC75     6A _XcptFilter
+      6FF62BC0     91 __getmainargs
+      6FF637D4    114 _cexit
+      6FFBB2C0    162 _exit
+      6FFA61CF     37 ?terminate@@YAXXZ
+      6FF62804     D2 __set_app_type
+
+    COMDLG32.dll
+               1001338 Import Address Table
+               100A56C Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      6F08BE04     17 ReplaceTextW
+      6F069A4C     11 PageSetupDlgW
+      6F06B741     14 PrintDlgExW
+      6F08BDD0      8 FindTextW
+      6F06EF2E      3 ChooseFontW
+      6F06619F      E GetSaveFileNameW
+      6F068FC8      4 CommDlgExtendedError
+      6F08B425      C GetOpenFileNameW
+      6F05258D      A GetFileTitleW
+
+    SHELL32.dll
+               1001360 Import Address Table
+               100A594 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      739197FD     1A DragAcceptFiles
+      73911FEA     70 SHAddToRecentDocs
+      7387CA26     C3 SHGetFolderPathW
+      73852C40     90 SHCreateItemFromParsingName
+      73821B8C    121 ShellExecuteExW
+      73A184A7     1F DragQueryFileW
+      73A18263     1B DragFinish
+      738C84BE    11A ShellAboutW
+
+    WINSPOOL.DRV
+               1001384 Import Address Table
+               100A5B8 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      6D9368E8     90 OpenPrinterW
+      6D94CABF     1D ClosePrinter
+      6D942510     86 GetPrinterDriverW
+
+    ole32.dll
+               1001394 Import Address Table
+               100A5C8 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      72580804     3F CoInitializeEx
+      725870C7     6C CoUninitialize
+      72594054     67 CoTaskMemAlloc
+      725957FC     10 CoCreateInstance
+      72594003     68 CoTaskMemFree
+      725571EF     3E CoInitialize
+
+    SHLWAPI.dll
+               10013B0 Import Address Table
+               100A5E4 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      6DE23BBF     5D PathIsFileSpecW
+      6DE3AE3C     FF SHStrDupW
+
+    COMCTL32.dll
+               10013BC Import Address Table
+               100A5F0 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      75C469D7      9 CreatePropertySheetPageW
+      75C47C30     85 PropertySheetW
+      75C585F2      C CreateStatusWindowW
+      75C5DF68        Ordinal   345
+
+    OLEAUT32.dll
+               10013D0 Import Address Table
+               100A604 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      6FC33E59        Ordinal     6
+      6FC34642        Ordinal     2
+
+    ntdll.dll
+               10013DC Import Address Table
+               100A610 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      77EE15DF    56B WinSqmIncrementDWORD
+      77EF35B8    39B RtlInitUnicodeString
+      77F05540    199 NtQueryLicenseValue
+      77EDADD5    55B WinSqmAddToStream
+
+    VERSION.dll
+               10013F0 Import Address Table
+               100A624 Import Name Table
+              FFFFFFFF time date stamp
+              FFFFFFFF Index of first forwarder reference
+
+      3FE01A15      2 GetFileVersionInfoExW
+      3FE018E9      4 GetFileVersionInfoSizeExW
+      3FE01B51      E VerQueryValueW
+
+  Header contains the following bound import information:
+    Bound to ADVAPI32.dll [4A5BD97E] Tue Jul 14 09:03:58 2009
+    Bound to KERNEL32.dll [4A5BDAAD] Tue Jul 14 09:09:01 2009
+      Contained forwarders bound to NTDLL.DLL [4A5BDADB] Tue Jul 14 09:09:47 2009
+    Bound to GDI32.dll [4A5BD9DD] Tue Jul 14 09:05:33 2009
+    Bound to USER32.dll [4A5BDB2F] Tue Jul 14 09:11:11 2009
+    Bound to msvcrt.dll [4A5BDA6F] Tue Jul 14 09:07:59 2009
+    Bound to COMDLG32.dll [4A5BDA25] Tue Jul 14 09:06:45 2009
+    Bound to SHELL32.dll [4A5BDB01] Tue Jul 14 09:10:25 2009
+    Bound to WINSPOOL.DRV [4A5BDB4B] Tue Jul 14 09:11:39 2009
+    Bound to ole32.dll [4A5BDAC7] Tue Jul 14 09:09:27 2009
+    Bound to SHLWAPI.dll [4A5BDB05] Tue Jul 14 09:10:29 2009
+    Bound to COMCTL32.dll [4A5BD976] Tue Jul 14 09:03:50 2009
+    Bound to OLEAUT32.dll [4A5BDACA] Tue Jul 14 09:09:30 2009
+    Bound to NTDLL.DLL [4A5BDADB] Tue Jul 14 09:09:47 2009
+    Bound to VERSION.dll [4A5BDB2B] Tue Jul 14 09:11:07 2009
+
+  Summary
+
+        3000 .data
+        1000 .reloc
+       20000 .rsrc
+        B000 .text
